@@ -10,7 +10,7 @@ const notesCstr = new NotesConstructor();
 notesCstr.getStartedNotes();
 
 const app = new Koa();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 7070;
 const server = http.createServer(app.callback());
 
 app.use(cors());

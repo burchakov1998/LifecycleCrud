@@ -1,5 +1,5 @@
 const ajaxSend = async (options) => {
-  const URL = "http://localhost:8080/"
+  const URL = "http://localhost:7070/"
   const requestUrl = `${URL}?${options.query}`;
 
   const request = await fetch(requestUrl, {
