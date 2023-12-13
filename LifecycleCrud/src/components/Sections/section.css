@@ -1,0 +1,81 @@
+/*Notes container/cards*/
+
+.notes-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .note-card {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    width: 29%;
+    margin: 1%;
+    min-height: 100px;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: cadetblue;
+    background-color: rgb(233, 212, 184);
+  }
+  
+  
+  .note-card:nth-child(3n){
+    margin-right: 0;
+  }
+  
+  .note__button-block {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  button.note-close__btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    border: 1px solid rosybrown;
+    background-image: url(https://banner2.cleanpng.com/20180407/vje/kisspng-computer-icons-delete-button-5ac878615961c1.8594774915230874573661.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+  }
+  
+  button.note-close__btn:active {
+    border: 2px solid rgb(91, 52, 8);
+}
+button.note-close__btn:hover {
+  border: 1px solid rgb(91, 52, 8);
+}
+
+  .note-content {
+    text-align: justify;
+    text-align-last: center;
+  }
+  
+  .panel-header {
+    display: flex;
+  }
+  
+  a.update-link {
+    margin-left: 45%;
+    margin-right: 2%;
+  }
+  
+  h3.update-text {
+    margin: 0;
+    margin-top: 20px;
+  }
+  
+  button.update__btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    
+    margin-top: 18px;
+    background-image: url(https://e7.pngegg.com/pngimages/331/603/png-clipart-computer-icons-synchronization-refresh-miscellaneous-leaf.png);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
